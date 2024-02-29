@@ -1,13 +1,22 @@
-About this project:
+DNS & Subdomain Enumeration Tool
 
-Secure message chat
+This Python application is designed for DNS and subdomain enumeration. It utilizes the tkinter library for the graphical user interface and the dns.resolver module for DNS-related operations.
+Usage Instructions:
 
-This Python script implements a secure chat application with a graphical interface using Tkinter. It allows users to host or join chat sessions, encrypting messages for secure communication using RSA encryption.The GUI features fields for IP input, message display, and sending messages, alongside buttons for hosting, joining, and sending.
-Threading ensures smooth communication and GUI responsiveness. 
+    Launch the application by running the script.
 
-Key features include RSA encryption,
-IP validation,
-and secure message exchange. 
+    Select the enumeration type using radio buttons:
+        Subdomain Enumeration: Identifies active subdomains for a given domain.
+        DNS Enumeration: Queries different DNS record types for a domain.
 
+    Enter the main domain (e.g., example.com) in the provided field.
 
-Overall, it provides a straightforward and secure platform for network-based conversations.
+    Click the "Execute" button to perform the selected enumeration.
+
+    View the results in the output section.
+
+Additional Features:
+
+    Save Results: Click the "Save Results" button to save the output to a text file.
+    Help Menu: Access the "Help" menu for guidance on using the tool effectively.
+    About Menu: Learn more about the tool's purpose and functionality.
